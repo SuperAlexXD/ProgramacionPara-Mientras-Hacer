@@ -9,15 +9,14 @@ int main() {
     
     int resultado = 0;
     int cubo = 0;
-    
-    while (cubo <= numero) {
-        resultado++;
+
+    for (resultado = 1; resultado * resultado * resultado <= numero; resultado++) {
         cubo = resultado * resultado * resultado;
     }
-    
-    resultado--;
-    
-    printf("Raíz cúbica: %d\n", resultado);
-    
+
+    resultado--;  
+
+    printf("Raíz cúbica aproximada: %d\n", resultado);
+
     return 0;
 }
