@@ -9,11 +9,12 @@ int main(int argc, char const *argv[])
     scanf("%i", &fact);
 
     int i = 1; 
-while(i <= fact)
+    do
     {
         multiplicar = multiplicar * i;
         i++;
     }
+    while(i <= fact);
     
     printf("El factorial de %d es: %d\n", fact, multiplicar);
     return 0;
