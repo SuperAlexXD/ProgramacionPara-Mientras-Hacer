@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int n, triangular = 0;
+
+    printf("Ingrese un numero (n): ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        triangular += i;
+    }
+
+    printf("El numero triangular %d-esimo es: %d\n", n, triangular);
+
+    return 0;
+}
