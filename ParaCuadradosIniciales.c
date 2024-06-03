@@ -11,7 +11,7 @@ int main() {
         suma += i * i;
     }
 
-    printf("La suma de los cuadrados hasta %d numeros es: %d\n", n, suma);
+    printf("La suma de los cuadrados hasta %d es: %d\n", n, suma);
 
     return 0;
 }
